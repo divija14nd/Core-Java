@@ -1,5 +1,16 @@
 package corejava;
 
+/*
+ * A triangle is represented by its 3 sides such that the sum of any 
+ * two sides is greater than the third. Write a class to represent a 
+ * triangle given 3 sides and to find its perimeter and area. Area using 
+ * Heron’s formula sqrt(s*(s-a)*(s-b)*(s-c)) where s = (a+b+c)/2. 
+ * If the triangle is invalid, the perimeter and area must be -1. 
+ * Read the 3 sides as input from the user and print the area and perimeter. 
+ * Write methods isEquilateral(), isScalene() and isIsosceles(), isRightAngled() 
+ * which will return true or false based on whether the triangle is equilateral, 
+ * isosceles, scalene or right-angled.*/
+
 public class TrianglesMain {
 
 	public static void main(String[] args) {
