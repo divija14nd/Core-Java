@@ -2,13 +2,13 @@ package corejava.oop;
 /*
  * 
 Instance         | Variable Data Type
-employeeId 		 |  Long
+employeeId       |  Long
 employeeName 	 |  String
 employeeAddress  |  String
 employeePhone    |  Long
 basicSalary 	 |	Double
 specialAllowance |	double 		default value- 2.5
-Hra 			 |  double 		default value- 10.5
+Hra 	         |  double 		default value- 10.5
 *
 */
 public class Employee {
@@ -22,8 +22,7 @@ public class Employee {
 	private double Hra = 10.5;
 	
 	
-	public Employee(long employeeID, String employeeName, String employeeAddress, long employeePhone,
-			double basicSalary) {
+	public Employee(long employeeID, String employeeName, String employeeAddress, long employeePhone, double basicSalary) {
 		super();
 		this.employeeID = employeeID;
 		this.employeeName = employeeName;
